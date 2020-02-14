@@ -36,12 +36,12 @@ const client = require("twilio")(accountSid, authToken);
 //   .then(session => console.log(session.sid, "from the session"));
 
 // client.proxy
-//   .services("KSa3662262e4863f84a3a63ee3991190a6")
+//   .services(serviceSid)
 //   .phoneNumbers(phoneSid)
 //   .remove(err => console.log(err));
 
 // client.proxy
-//   .services("KSa3662262e4863f84a3a63ee3991190a6")
+//   .services(serviceSid)
 //   .remove((err, items) => {
 //     err ? console.log(err) : console.log(items);
 //   });
